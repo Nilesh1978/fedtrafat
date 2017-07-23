@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "make_file_name_test_year <- function(year) {\n  year <- as.integer(year)\n  year\n  #sprintf(\"accident_%d.csv.bz2\", year)\n}\n\nexpect_that(class(make_file_name_test_year(2003)), is_equivalent_to(\"integer\"))\n",
+    "created" : 1500840461684.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "361059274",
+    "id" : "118E6E6A",
+    "lastKnownWriteTime" : 1500844439,
+    "last_content_update" : -2147483648,
+    "path" : "C:/Users/nndigh/Desktop/Educational/coursera/Mastering Software Development in R/BUILDING R PACKAGES/fedtrafat/tests/testthat/test_fars_read_integer.R",
+    "project_path" : "tests/testthat/test_fars_read_integer.R",
+    "properties" : {
+        "tempName" : "Untitled3"
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

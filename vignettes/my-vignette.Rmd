@@ -1,0 +1,24 @@
+---
+title: "examples_fedtrafat"
+author: "Nilesh Dighe"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{examples_fedtrafat}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+## Vignette Info
+This vignitte reviews all the available functions in package `fedtrafat`. Functions in this package will allow users to download data from `https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars1` [Fatality Analysis Reporting System]. These functions are built for user to import data, conduct some basic analysis, etc.
+
+
+
+
+## Description and examples of the available function
+`fars_read` function function reads your data file downloaded from the `https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars` [Fatality Analysis Reporting System]. If file you are trying to read doesn't exist on the fars database then you will get a message `filename does not exist`. Data will be read using the read_csv function from the `readr` package. Dataframe will be stored in `tbl_df` format using the `dplyr` package.
+
+`make_filename` function uses year as an argument and create file name by embedding `year` given as an argument to create a file. File name is created by pasting `accident` and the input `year` and saving it in `csv.bz2` format.
+
+
+

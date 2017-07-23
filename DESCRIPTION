@@ -1,0 +1,16 @@
+Package: fedtrafat
+Type: Package
+Title: Fatality Analysis Reporting Package
+Version: 0.1.0
+Author: Nilesh Dighe
+Maintainer: Nilesh Dighe <nilesh.dighe@monsanto.com>
+Description: This package provdes functionS to download data for the fatality due to accidents from the
+    FARS website and provide additional functions to analyze these data.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
